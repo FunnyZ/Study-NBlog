@@ -16,12 +16,12 @@ node &amp; express &amp; mongodb Study
 - sha1: sha1 加密，用于密码加密
 - winston: 日志
 - express-winston: 基于 winston 的用于 express 的日志中间件
----
+
 ## 配置
 - Study-NBlog/config/default.js
----
+
 ## 权限控制
 - Study-NBlog/middlewares/check.js
----
+
 ## 视图模版
 - Study-NBlog/views/*
