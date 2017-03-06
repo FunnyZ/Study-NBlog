@@ -9,7 +9,7 @@ Post.plugin('contentToHtml', {
             return post;
         });
     },
-    afterFineOne: function(post) {
+    afterFindOne: function(post) {
         if ( post ) {
             post.content = marked(post.content);
         }
@@ -27,7 +27,7 @@ Post.plugin('addCommentsCount', {
             });
         }));
     },
-    afterFineOne: function(post) {
+    afterFindOne: function(post) {
         if ( post ) {
             return CommentModel.getCommentsCount(post._id).then(function(count) {
                 post.commentsCount = count;
