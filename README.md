@@ -16,6 +16,8 @@ node &amp; express &amp; mongodb Study
 - sha1: sha1 加密，用于密码加密
 - winston: 日志
 - express-winston: 基于 winston 的用于 express 的日志中间件
+- mocha 和 supertest: 常用的测试组合，通常用来测试 restful 的 api接口
+- istanbul: 常用的生成测试覆盖率的库
 
 ## 配置
 - Study-NBlog/config/default.js
